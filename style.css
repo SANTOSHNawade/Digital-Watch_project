@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #af805eeb, #c6b8b9);
+    margin: 0;
+    text-align: center;
+}
+
+.watch-container {
+    background: rgba(149, 89, 89, 0.8);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#digital-watch {
+    font-size: 2em;
+    font-weight: bold;
+    color: #0f0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
